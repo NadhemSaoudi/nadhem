@@ -1,0 +1,48 @@
+[debug] [2023-06-06T18:23:35.447Z] ----------------------------------------------------------------------
+[debug] [2023-06-06T18:23:35.449Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nadhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-06T18:23:35.450Z] CLI Version:   12.2.1
+[debug] [2023-06-06T18:23:35.450Z] Platform:      win32
+[debug] [2023-06-06T18:23:35.450Z] Node Version:  v16.18.0
+[debug] [2023-06-06T18:23:35.451Z] Time:          Tue Jun 06 2023 19:23:35 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2023-06-06T18:23:35.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-06T18:23:35.547Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-06T18:23:35.548Z] > authorizing via signed-in user (nadhem.saoudi123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nadhe\OneDrive\Bureau\portfolioJS\react-portfolio-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-06T18:24:00.095Z] Using project from CLI flag: ija-7ajm
+[debug] [2023-06-06T18:24:00.097Z] > refreshing access token with scopes: []
+[debug] [2023-06-06T18:24:00.100Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-06T18:24:00.100Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-06T18:24:07.070Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-06T18:24:07.070Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-06T18:24:07.079Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ija-7ajm [none]
+[debug] [2023-06-06T18:24:12.835Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ija-7ajm 403
+[debug] [2023-06-06T18:24:12.835Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ija-7ajm {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-06-06T18:24:12.836Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-06-06T18:24:16.437Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\nadhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\nadhe\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project ija-7ajm. Please make sure the project exists and your account has permission to access it.

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nadhem/static/css/main.b52bef67.css",
+    "main.js": "/nadhem/static/js/main.ece392f1.js",
+    "static/media/work6.png": "/nadhem/static/media/work6.c317f170436880be6f91.png",
+    "static/media/work3.png": "/nadhem/static/media/work3.57d82092b7dafaef86d7.png",
+    "static/media/nadhemeeqtertret.png": "/nadhem/static/media/nadhemeeqtertret.03beeab7786a46210022.png",
+    "static/media/work8.png": "/nadhem/static/media/work8.c0aad0f156afd6aaca40.png",
+    "static/media/work4.png": "/nadhem/static/media/work4.01b7c9b56e1c1818ce14.png",
+    "static/media/work7.png": "/nadhem/static/media/work7.08d8c3c595744c64fa4a.png",
+    "static/media/Poppins-Medium.ttf": "/nadhem/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/work2.jpg": "/nadhem/static/media/work2.df04be4c722659df2378.jpg",
+    "static/media/work5.png": "/nadhem/static/media/work5.dc3818e96cd0195d917c.png",
+    "static/media/work1.jpg": "/nadhem/static/media/work1.e4e8204dfb8cf51502fa.jpg",
+    "index.html": "/nadhem/index.html",
+    "main.b52bef67.css.map": "/nadhem/static/css/main.b52bef67.css.map",
+    "main.ece392f1.js.map": "/nadhem/static/js/main.ece392f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b52bef67.css",
+    "static/js/main.ece392f1.js"
+  ]
+}
